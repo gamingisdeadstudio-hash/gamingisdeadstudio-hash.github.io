@@ -63,7 +63,7 @@ jobs:
       - name: Assemble static site
         run: |
           mkdir _site
-          cp index.html styles.css site.js .nojekyll _site/
+          cp index.html styles.css site.js robots.txt sitemap.xml .nojekyll _site/
           cp -R assets games steam-signal data legal privacy _site/
 
       - name: Upload GitHub Pages artifact

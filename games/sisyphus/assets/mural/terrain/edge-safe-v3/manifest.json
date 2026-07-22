@@ -1,0 +1,29 @@
+{
+  "edgeWidth": 92,
+  "dimensions": [
+    512,
+    512
+  ],
+  "assets": [
+    {
+      "src": "ramp-edge-v3-01.webp",
+      "source": "assets/mural/terrain/ramp-texture-v2-01.webp"
+    },
+    {
+      "src": "ramp-edge-v3-02.webp",
+      "source": "assets/mural/terrain/ramp-texture-v2-02.webp"
+    },
+    {
+      "src": "ramp-edge-v3-03.webp",
+      "source": "assets/mural/terrain/ramp-texture-v2-03.webp"
+    },
+    {
+      "src": "ramp-edge-v3-04.webp",
+      "source": "assets/mural/terrain/ramp-texture-v2-04.webp"
+    },
+    {
+      "src": "ramp-edge-v3-05.webp",
+      "source": "assets/mural/terrain/ramp-texture-v2-05.webp"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steam Signal — Recent game traction</title>
+  <meta name="description" content="Recently released Steam games grouped by review traction.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="Back to David's projects">
+      <span class="brand-mark" aria-hidden="true">S</span>
+      <span>STEAM SIGNAL</span>
+    </a>
+    <div class="updated" id="updated">Waiting for database…</div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">Market intelligence / recent releases</p>
+      <h1>Find the games<br>breaking through.</h1>
+      <p class="lede">A clean view of review traction among games released in the 90 days before the latest database update.</p>
+    </section>
+
+    <nav class="bands" aria-label="Review bands">
+      <button class="band active" data-category="rising">
+        <span class="band-index">01</span>
+        <span class="band-name">Rising</span>
+        <span class="band-range">500–999 reviews</span>
+        <span class="band-count" id="count-rising">—</span>
+      </button>
+      <button class="band" data-category="hits">
+        <span class="band-index">02</span>
+        <span class="band-name">Hits</span>
+        <span class="band-range">1K–9.9K reviews</span>
+        <span class="band-count" id="count-hits">—</span>
+      </button>
+      <button class="band" data-category="megahits">
+        <span class="band-index">03</span>
+        <span class="band-name">Megahits</span>
+        <span class="band-range">10K+ reviews</span>
+        <span class="band-count" id="count-megahits">—</span>
+      </button>
+    </nav>
+
+    <section class="results" aria-live="polite">
+      <div class="results-head">
+        <div>
+          <p class="eyebrow">Current selection</p>
+          <h2 id="section-title">Rising</h2>
+          <p id="section-copy">Games with 500–999 reviews.</p>
+        </div>
+        <label class="search">
+          <span class="sr-only">Filter by title or tag</span>
+          <input id="search" type="search" placeholder="Filter title or tag" autocomplete="off">
+          <span aria-hidden="true">⌕</span>
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th class="number">Reviews</th>
+              <th class="number">Score</th>
+              <th>Release</th>
+              <th class="number">Price</th>
+              <th>Tags</th>
+              <th class="number estimate">Owners est.</th>
+              <th class="number estimate">Revenue est.</th>
+            </tr>
+          </thead>
+          <tbody id="games"></tbody>
+        </table>
+        <div class="empty" id="empty" hidden>
+          <span>NO SIGNAL</span>
+          <p>No matching games in this review band.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Estimates use 30 owners per review and 41.2% realized list-price revenue. Treat them as directional, not reported sales.</p>
+    <p>Inspired by <a href="https://steamtrender.com/" target="_blank" rel="noreferrer">SteamTrender</a> · Steam Signal / <span id="year"></span></p>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

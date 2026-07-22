@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Games, experiments, and useful little tools made by David.">
+  <meta name="theme-color" content="#f7f5ef">
+  <title>David makes things</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="maker-mark" href="./" aria-label="David makes things — home">
+      <span class="maker-mark__shape" aria-hidden="true"></span>
+      <span>David makes things</span>
+    </a>
+    <a class="github-link" href="https://github.com/gamingisdeadstudio-hash" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">Small games · useful tools · odd ideas</p>
+      <h1 id="page-title">Games and stuff<br>made for the web.</h1>
+      <p class="hero-copy">A growing shelf of things I make, test, and occasionally finish.</p>
+    </section>
+
+    <section class="project-grid" aria-label="Projects">
+      <a class="project-card project-card--sisyphus" href="./games/sisyphus/">
+        <img src="./assets/site/sisyphus-card.webp" alt="Sisyphus pushing a boulder up a painted mountain" width="1200" height="558">
+        <span class="project-card__scrim" aria-hidden="true"></span>
+        <span class="project-card__meta">
+          <span class="project-card__kind">Incremental game</span>
+          <strong>Sisyphus</strong>
+          <span class="project-card__arrow" aria-hidden="true">↗</span>
+        </span>
+      </a>
+
+      <a class="project-card project-card--honey" href="./games/yummy-yummy-honey/">
+        <img src="./assets/site/honey-card.webp" alt="The colorful Yummy Yummy Honey game" width="1200" height="558">
+        <span class="project-card__scrim" aria-hidden="true"></span>
+        <span class="project-card__meta">
+          <span class="project-card__kind">Strategy game</span>
+          <strong>Yummy Yummy Honey</strong>
+          <span class="project-card__arrow" aria-hidden="true">↗</span>
+        </span>
+      </a>
+
+      <a class="project-card project-card--signal" href="./steam-signal/">
+        <img src="./assets/site/steam-signal-card.webp" alt="Steam Signal dashboard showing recently successful games" width="1200" height="558">
+        <span class="project-card__scrim" aria-hidden="true"></span>
+        <span class="project-card__meta">
+          <span class="project-card__kind">Market tool</span>
+          <strong>Steam Signal</strong>
+          <span class="project-card__arrow" aria-hidden="true">↗</span>
+        </span>
+      </a>
+    </section>
+
+    <section class="about" aria-labelledby="about-title">
+      <p class="eyebrow">About</p>
+      <div>
+        <h2 id="about-title">Hi, I’m David.</h2>
+        <p>I make games and small tools under <strong>Gaming Is Dead Studio</strong>. This is their home on the web.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> David</span>
+    <span>Made in Austria</span>
+  </footer>
+
+  <script src="./site.js" defer></script>
+</body>
+</html>

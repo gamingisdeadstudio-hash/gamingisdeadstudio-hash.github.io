@@ -1,0 +1,200 @@
+{
+  "version": 3,
+  "palette": {
+    "name": "plaster-indigo",
+    "plasterHighlight": "#ece9e1",
+    "plasterBase": "#d2d0c9",
+    "plasterShadow": "#aaaeb0",
+    "fadedInk": "#657083",
+    "midInk": "#3c485e",
+    "deepInk": "#172033",
+    "agedAccent": "#9a8055"
+  },
+  "assets": [
+    {
+      "id": "plaster-base",
+      "name": "Seamless plaster base",
+      "type": "texture",
+      "src": "textures/plaster-base.webp",
+      "dimensions": "1024×1024",
+      "maxBytes": 307200
+    },
+    {
+      "id": "far-mountain-v2-01",
+      "name": "Far range — canyon basin v2",
+      "type": "background",
+      "layer": "far",
+      "src": "backgrounds/far-mountain-v2-01.webp",
+      "dimensions": "1600×547",
+      "mirror": true,
+      "maxBytes": 307200
+    },
+    {
+      "id": "far-mountain-v2-02",
+      "name": "Far range — table escarpment v2",
+      "type": "background",
+      "layer": "far",
+      "src": "backgrounds/far-mountain-v2-02.webp",
+      "dimensions": "1600×465",
+      "mirror": true,
+      "maxBytes": 307200
+    },
+    {
+      "id": "far-mountain-v2-03",
+      "name": "Far range — central spires v2",
+      "type": "background",
+      "layer": "far",
+      "src": "backgrounds/far-mountain-v2-03.webp",
+      "dimensions": "1600×526",
+      "mirror": true,
+      "maxBytes": 307200
+    },
+    {
+      "id": "near-cliff-v2",
+      "name": "Stepped foreground cliff v2",
+      "type": "background",
+      "layer": "near",
+      "src": "backgrounds/near-cliff-v2.webp",
+      "dimensions": "1360×874",
+      "mirror": false,
+      "maxBytes": 409600
+    },
+    {
+      "id": "mid-cliff-v2",
+      "name": "Buried colonnade cliff v2",
+      "type": "background",
+      "layer": "middle",
+      "src": "backgrounds/mid-cliff-v2.webp",
+      "dimensions": "1360×941",
+      "mirror": true,
+      "maxBytes": 307200
+    },
+    {
+      "id": "ramp-edge-v3-01",
+      "name": "Edge-safe ramp geology A v3",
+      "type": "ramp-material",
+      "src": "terrain/edge-safe-v3/ramp-edge-v3-01.webp",
+      "dimensions": "512×512",
+      "maxBytes": 122880
+    },
+    {
+      "id": "ramp-edge-v3-02",
+      "name": "Edge-safe ramp geology B v3",
+      "type": "ramp-material",
+      "src": "terrain/edge-safe-v3/ramp-edge-v3-02.webp",
+      "dimensions": "512×512",
+      "maxBytes": 122880
+    },
+    {
+      "id": "ramp-edge-v3-03",
+      "name": "Edge-safe ramp geology C v3",
+      "type": "ramp-material",
+      "src": "terrain/edge-safe-v3/ramp-edge-v3-03.webp",
+      "dimensions": "512×512",
+      "maxBytes": 122880
+    },
+    {
+      "id": "ramp-edge-v3-04",
+      "name": "Edge-safe buried architecture A v3",
+      "type": "ramp-material",
+      "src": "terrain/edge-safe-v3/ramp-edge-v3-04.webp",
+      "dimensions": "512×512",
+      "maxBytes": 122880
+    },
+    {
+      "id": "ramp-edge-v3-05",
+      "name": "Edge-safe buried architecture B v3",
+      "type": "ramp-material",
+      "src": "terrain/edge-safe-v3/ramp-edge-v3-05.webp",
+      "dimensions": "512×512",
+      "maxBytes": 122880
+    },
+    {
+      "id": "rock-strata-v2",
+      "name": "Weathered sediment strata v2",
+      "type": "decal",
+      "src": "decals/rock-strata-v2.webp",
+      "dimensions": "900×617",
+      "mirror": true,
+      "scale": [0.6, 1.25],
+      "maxBytes": 358400
+    },
+    {
+      "id": "fracture-v2",
+      "name": "Branching plaster fracture v2",
+      "type": "decal",
+      "src": "decals/fracture-v2.webp",
+      "dimensions": "585×900",
+      "mirror": true,
+      "scale": [0.55, 1.15]
+    },
+    {
+      "id": "rubble-v2",
+      "name": "Inscribed rubble cluster v2",
+      "type": "decal",
+      "src": "decals/rubble-v2.webp",
+      "dimensions": "1000×543",
+      "mirror": true,
+      "scale": [0.65, 1.2]
+    },
+    {
+      "id": "temple-v2",
+      "name": "Hilltop temple ruin v2",
+      "type": "landmark",
+      "src": "landmarks/temple-v2.webp",
+      "dimensions": "1000×728",
+      "mirror": false,
+      "maxBytes": 307200
+    },
+    {
+      "id": "olive-tree-v2",
+      "name": "Ancient olive tree v2",
+      "type": "landmark",
+      "src": "landmarks/olive-tree-v2.webp",
+      "dimensions": "731×1120",
+      "mirror": true,
+      "maxBytes": 409600
+    },
+    {
+      "id": "sisyphus-push-v3-01",
+      "name": "Sisyphus push cycle — brace v3",
+      "type": "animation-frame",
+      "src": "characters/push-v3/sisyphus-push-v3-01.png",
+      "dimensions": "768×768",
+      "maxBytes": 409600
+    },
+    {
+      "id": "sisyphus-push-v3-02",
+      "name": "Sisyphus push cycle — compression v3",
+      "type": "animation-frame",
+      "src": "characters/push-v3/sisyphus-push-v3-02.png",
+      "dimensions": "768×768",
+      "maxBytes": 409600
+    },
+    {
+      "id": "sisyphus-push-v3-03",
+      "name": "Sisyphus push cycle — drive v3",
+      "type": "animation-frame",
+      "src": "characters/push-v3/sisyphus-push-v3-03.png",
+      "dimensions": "768×768",
+      "maxBytes": 409600
+    },
+    {
+      "id": "sisyphus-push-v3-05",
+      "name": "Sisyphus push cycle — recovery v3",
+      "type": "animation-frame",
+      "src": "characters/push-v3/sisyphus-push-v3-05.png",
+      "dimensions": "768×768",
+      "maxBytes": 409600
+    },
+    {
+      "id": "boulder-v2",
+      "name": "Sisyphus boulder v2",
+      "type": "character",
+      "src": "characters/boulder-v2.webp",
+      "dimensions": "958×960",
+      "mirror": false,
+      "maxBytes": 409600
+    }
+  ]
+}

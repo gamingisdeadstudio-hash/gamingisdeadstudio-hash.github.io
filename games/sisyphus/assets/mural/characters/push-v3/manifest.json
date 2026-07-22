@@ -1,0 +1,94 @@
+{
+  "frameSize": [
+    768,
+    768
+  ],
+  "handX": 736,
+  "baselineY": 730,
+  "frames": [
+    {
+      "src": "sisyphus-push-v3-01.png",
+      "sourceBox": [
+        55,
+        129,
+        493,
+        666
+      ],
+      "hand": [
+        736,
+        215
+      ],
+      "baseline": 730,
+      "contentBox": [
+        230,
+        110,
+        736,
+        730
+      ],
+      "scale": 1.154562
+    },
+    {
+      "src": "sisyphus-push-v3-02.png",
+      "sourceBox": [
+        472,
+        197,
+        848,
+        662
+      ],
+      "hand": [
+        736,
+        288
+      ],
+      "baseline": 730,
+      "contentBox": [
+        302,
+        193,
+        736,
+        730
+      ],
+      "scale": 1.154839
+    },
+    {
+      "src": "sisyphus-push-v3-03.png",
+      "sourceBox": [
+        731,
+        166,
+        1205,
+        663
+      ],
+      "hand": [
+        736,
+        265
+      ],
+      "baseline": 730,
+      "contentBox": [
+        198,
+        166,
+        736,
+        730
+      ],
+      "scale": 1.134809
+    },
+    {
+      "src": "sisyphus-push-v3-05.png",
+      "sourceBox": [
+        247,
+        19,
+        1108,
+        1093
+      ],
+      "hand": [
+        736,
+        218
+      ],
+      "baseline": 730,
+      "contentBox": [
+        247,
+        120,
+        736,
+        730
+      ],
+      "scale": 0.56797
+    }
+  ]
+}

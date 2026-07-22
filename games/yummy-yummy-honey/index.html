@@ -29,6 +29,21 @@
     align-items: center;
     justify-content: center;
   }
+  .legal-shortcuts {
+    position: fixed;
+    z-index: 10000;
+    left: 10px;
+    bottom: 8px;
+    display: flex;
+    gap: 10px;
+    font: 11px/1 system-ui, sans-serif;
+  }
+  .legal-shortcuts a {
+    color: rgba(58, 36, 8, 0.68);
+    text-underline-offset: 2px;
+  }
+  .legal-shortcuts a:hover,
+  .legal-shortcuts a:focus-visible { color: var(--ink); }
   #stage {
     position: relative;
     width: 100vw;
@@ -9884,5 +9899,6 @@
   requestAnimationFrame((t) => { lastT = t; requestAnimationFrame(loop); });
 })();
 </script>
+<nav class="legal-shortcuts" aria-label="Legal information"><a href="../../legal/">Legal</a><a href="../../privacy/">Privacy</a></nav>
 </body>
 </html>

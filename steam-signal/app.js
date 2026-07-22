@@ -53,7 +53,7 @@ function render() {
     const newBadge = game.is_new ? '<span class="new-badge">New this week</span>' : '';
     return `<tr class="${game.is_new ? 'is-new' : ''}">
       <td><div class="game-cell">
-        <img class="game-capsule" src="${escapeHtml(capsuleUrl)}" alt="" width="106" height="40" loading="lazy">
+        <img class="game-capsule" src="${escapeHtml(capsuleUrl)}" alt="" width="106" height="40" loading="lazy" decoding="async" referrerpolicy="no-referrer">
         <div><a class="game-title" href="${escapeHtml(game.steam_url)}" target="_blank" rel="noreferrer">${escapeHtml(game.title)}</a>${newBadge}</div>
       </div></td>
       <td class="number">${integer.format(game.reviews_total)}</td>

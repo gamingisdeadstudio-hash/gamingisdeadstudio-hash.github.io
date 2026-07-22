@@ -42,6 +42,8 @@
   .volume-slider::-moz-range-thumb{width:9px;height:9px;border:1px solid var(--ink);border-radius:50%;background:var(--paper)}
   .shop-reset{padding:4px 0;border:0;border-bottom:1px solid rgba(23,32,51,.35);background:transparent;box-shadow:none;color:var(--faded);font-size:8px}
   .shop-reset:hover,.shop-reset:focus-visible{background:transparent;color:var(--ink);border-bottom-color:var(--ink)}
+  .shop-legal{color:var(--faded);font:8px/1 Arial,sans-serif;text-underline-offset:2px}
+  .shop-legal:hover,.shop-legal:focus-visible{color:var(--ink)}
   .shop-summary{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
   .shop-stat{padding:8px;border-left:2px solid var(--gold);background:rgba(210,208,201,.45)}
   .shop-stat>span{display:block;font:8px/1.2 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--faded)}
@@ -104,7 +106,7 @@
     <div id="shop-content"></div>
     <section class="shop-section"><div class="shop-section-title">Prestige</div><button class="prestige-card" id="prestige-button" type="button"><strong>Defy the Gods</strong><span id="prestige-copy">Requires 100,000 m</span></button></section>
   </div>
-  <div class="shop-footer"><label class="volume-control" for="master-volume"><span class="volume-label">Sound</span><input class="volume-slider" id="master-volume" type="range" min="0" max="100" step="1" value="100"><output class="volume-value" id="volume-value" for="master-volume">100%</output></label><button class="shop-reset" id="reset-progress" type="button">Reset</button></div>
+  <div class="shop-footer"><label class="volume-control" for="master-volume"><span class="volume-label">Sound</span><input class="volume-slider" id="master-volume" type="range" min="0" max="100" step="1" value="100"><output class="volume-value" id="volume-value" for="master-volume">100%</output></label><a class="shop-legal" href="../../legal/">Legal</a><a class="shop-legal" href="../../privacy/">Privacy</a><button class="shop-reset" id="reset-progress" type="button">Reset</button></div>
 </aside>
 <div class="grain"></div>
 <div class="modal hidden" id="prestige-modal" aria-hidden="true"><div class="modal-card"><div class="shop-kicker">The burden returns</div><h2>Begin again?</h2><p id="prestige-warning"></p><div class="modal-actions"><button id="prestige-cancel" type="button">Not yet</button><button id="prestige-confirm" type="button">Defy the Gods</button></div></div></div>
